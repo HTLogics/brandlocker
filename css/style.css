@@ -669,6 +669,13 @@ section.inner-banner::before {
     z-index: -2;
     opacity: .5;
 }
+
+
+.portfolio-img .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
 @media(min-width:320px) and (max-width:767px){
 	html, body { overflow-x: hidden;}
 	.navbar-brand img { width: 150px;}
