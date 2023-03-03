@@ -602,11 +602,7 @@ section.free-shipping-section {
     background: rgb(50, 195, 108);
     padding: 40px 0px;
 }
-.sezle-banner img {
-    width: 50%;
-    box-shadow: rgb(216, 216, 216) 0px 6px 16px;
-    padding: 30px;
-}
+
 .sezle-banner {
     width: 100%;
     text-align: center;
@@ -634,9 +630,34 @@ section.free-shipping-section {
     background: rgb(153, 1, 6);
     border-color: rgb(153, 1, 6);
 }
-section.home-content {
-    padding-bottom: 3em;
-}
+
 .banner h1 {
     text-shadow: rgb(0, 0, 0) 0px 1px 2px;
 }
+.sezzle-box {
+    background: #fff;
+    border: 1px solid #e5e2e2;
+    height: 250px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.sezzle-box:hover {
+    filter: drop-shadow(2px 4px 6px black); color: #000;
+}
+.sezzle-box:hover h4 {
+    color: #990106;
+}
+
+@media(min-width:320px) and (max-width:767px){
+	html, body { overflow-x: hidden;}
+	.navbar-brand img { width: 150px;}
+	.red-btn { padding: 7px 20px !important; font-size:12px;}
+	.banner h1 { font-size: 20px;}
+	.header-carousel .owl-dots {display:none !important;}
+	.header-carousel .owl-carousel-item p {font-size:12px !important; margin-bottom:0 !important;}
+	.header-carousel .owl-carousel-item {min-height:200px;}
+	.sezzle-logo img, .sezle-banner img {width:100%;}
+	.sezzle-box {height: auto; padding: 20px; margin-bottom: 15px;}
+	.icon-flex { margin: 15px 0;}
+}
+
