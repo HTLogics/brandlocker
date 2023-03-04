@@ -676,6 +676,25 @@ section.inner-banner::before {
     height: auto;
     width: 100%;
 }
+.contact-box {
+    background: #F6F7F8;
+    text-align: center;
+    padding: 40px 20px;
+    color: #000;
+}
+.cont-icon i {
+    font-size: 30px;
+    background: #6b0002;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    line-height: 70px;
+    color: #fff;
+}
+.cont-txt {
+    margin-top: 15px;
+}
+
 @media(min-width:320px) and (max-width:767px){
 	html, body { overflow-x: hidden;}
 	.navbar-brand img { width: 150px;}
