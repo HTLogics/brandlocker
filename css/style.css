@@ -322,7 +322,7 @@
     width: 0;
     height: 100%;
     top: 0;
-    background: var(--dark);
+    background: #62040ae0;
     transition: .5s;
 }
 
@@ -676,11 +676,14 @@ section.inner-banner::before {
     height: auto;
     width: 100%;
 }
+.contact-row {
+    margin-bottom: 40px;
+}
 .contact-box {
     background: #F6F7F8;
     text-align: center;
     padding: 40px 20px;
-    color: #000;
+    color: #000;margin-bottom:10px;
 }
 .cont-icon i {
     font-size: 30px;
@@ -694,6 +697,47 @@ section.inner-banner::before {
 .cont-txt {
     margin-top: 15px;
 }
+.contact-box:hover {
+    background: #6b0002;color: #fff;
+}
+.contact-box:hover i {
+    background: #fff;
+    color: #6b0002;
+}
+.left-sidebar {
+    background: #f1f1f1;
+}
+.left-sidebar h3 {
+    background: #32c36c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 5px;
+}
+.left-sidebar ul.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.left-sidebar ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+.left-sidebar ul li:last-child {
+    border: none;
+}
+
+.left-sidebar ul li a {
+    color: #000;
+    font-weight: 500;
+}
+.left-sidebar ul li:hover {
+    background: #990106;
+}
+.left-sidebar ul li:hover a {
+    color: #fff;
+}
+
+
 
 @media(min-width:320px) and (max-width:767px){
 	html, body { overflow-x: hidden;}
